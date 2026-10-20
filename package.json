@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/Aidan-Jacks/celestial-sandbox/issues"
   },
-  "homepage": "https://github.com/Aidan-Jacks/celestial-sandbox#readme"
+  "homepage": "https://github.com/Aidan-Jacks/celestial-sandbox#readme",
+  "devDependencies": {
+    "vite": "^8.3.4"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  }
 }
+
