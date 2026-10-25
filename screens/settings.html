@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Celestial Sandbox</title>
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+</head>
+
+<body>
+
+    <div class="return-buttons">
+        <a href="/index.html">Back</a>
+    </div>
+
+    <canvas id="stars" aria-hidden="true"></canvas>
+
+    <main class="settings-content">
+        <header class="settings-header">
+            <h1>SETTINGS</h1>
+            <p>- - - - - - - - - - - - - - -</p>
+        </header>
+
+        <label class="setting-item" for="ambient-stars">
+            <span>Show ambient stars</span>
+            <input id="ambient-stars" type="checkbox" checked />
+        </label>
+
+        <label class="setting-item" for="ambient-music">
+            <span>Background music</span>
+            <input id="ambient-music" type="checkbox" checked />
+        </label>
+    </main>
+
+    <script type="module" src="/scripts/ambient-bg.js"></script>
+    <script type="module" src="/scripts/soundtracks.js"></script>
+</body>
+</html>
